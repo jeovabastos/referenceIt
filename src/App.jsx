@@ -1,14 +1,16 @@
-import { Outlet } from 'react-router';
+import { Outlet, Link } from 'react-router';
 import './App.css';
-// import Slider from './routes/Slider';
 
 function App() {
   return (
     <>
-      <h1>REFERENCE IT NAVBAR</h1>
-
-      <Outlet/>
-      {/* <Slider/> */}
+      <div>
+        <header><Link to={'/'}>REFERENCE IT</Link></header>
+        <main>
+          <Outlet/>
+        </main>
+        <footer>Meu Rodapé</footer>
+      </div>
     </>
   );
 }

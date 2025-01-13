@@ -1,0 +1,12 @@
+.imagem-container {
+    display: inline-block; /* Permite que a imagem se comporte como um bloco */
+}
+
+.imagem-hover {
+    width: 350px;
+    transition: filter 0.5s ease; /* Adiciona uma transição suave ao filtro */
+}
+
+.imagem-hover:hover {
+    filter: grayscale(100%); /* Aplica o filtro preto e branco ao passar o mouse */
+}

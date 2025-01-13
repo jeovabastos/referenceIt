@@ -1,4 +1,6 @@
 import { Link } from "react-router";
+import estudarImg from '../assets/estudar.png'
+import './Home.css'
 
 export default function Home() {
     return (
@@ -6,19 +8,19 @@ export default function Home() {
             <main>
                 <Link to={'estudar'}>
                     <div>
-                        <img src="" alt="estudar" />
+                        <img className="imagem-container imagem-hover" src={estudarImg} alt="estudar" />
                     </div>
                 </Link>
 
                 <Link to={'praticar'}>
                     <div>
-                        <img src="" alt="praticar" />
+                        <img className="imagem-container imagem-hover" src={estudarImg} alt="estudar" />
                     </div>
                 </Link>
 
                 <Link to={'comunidade'}>
                     <div>
-                        <img src="" alt="comunidade" />
+                        <img className="imagem-container imagem-hover" src={estudarImg} alt="estudar" />
                     </div>
                 </Link>
             </main>

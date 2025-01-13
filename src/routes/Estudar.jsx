@@ -22,7 +22,7 @@ export default function Estudar(){
 
             {/* APENAS O QUE ESTUDAR E COMO ESTUDAR É QUE ESTARÃO NESSA PÁGINA, OS OUTROS CONTEÚDOS SERÃO REDIRECIONADOS CADA UM PARA SUA PÁGINAE */}
             <div>
-                <h1 id="oqueestudar">Técnicas</h1>
+                <h1 id="oqueestudar">O que estudar</h1>
             </div>
 
         </>

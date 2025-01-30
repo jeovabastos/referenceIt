@@ -1,12 +1,46 @@
-.imagem-container {
-    display: inline-block; /* Permite que a imagem se comporte como um bloco */
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .imagem-hover {
-    width: 350px;
-    transition: filter 0.5s ease; /* Adiciona uma transição suave ao filtro */
+    transition: filter 0.5s ease;
 }
 
 .imagem-hover:hover {
-    filter: grayscale(100%); /* Aplica o filtro preto e branco ao passar o mouse */
+    filter: grayscale(100%);
+}
+
+.mainClass {
+    background-color: red;
+    display: flex; /* Usando flexbox para alinhar as divs lado a lado */
+    overflow: hidden;
+    height: calc(100vh - 4rem);
+    margin: auto;
+    width: 80%;
+}
+
+.esquerda, .direita {
+    flex: 1; /* As divs ocuparão o mesmo espaço */  
+}
+.esquerda{
+    background-color: blue;
+}
+.direita a img{
+    height: 100% !important;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.imagem-container {
+    max-width: 100%;
+    height: 50%;
+    display: block; /* Remove o espaço em branco abaixo da imagem */
+    object-fit: cover;
+    overflow: hidden; /* Garante que nada saia dos limites da div, se necessário */
+}
+
+.imagem-hover:hover {
+    transform: scale(1.05); /* Aumenta levemente a imagem ao passar o mouse */
+    transition: transform 0.3s; /* Transição suave para o efeito de hover */
 }

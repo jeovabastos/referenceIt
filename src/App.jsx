@@ -9,7 +9,7 @@ function App() {
         <main>
           <Outlet/>
         </main>
-        <footer>Meu Rodapé</footer>
+        {/* <footer>Meu Rodapé</footer> */}
       </div>
     </>
   );

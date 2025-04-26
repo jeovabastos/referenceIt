@@ -5,7 +5,7 @@ import { createClient } from 'pexels';
 function Slider() {
   const apiKey = import.meta.env.VITE_API_KEY;
   const client = createClient(apiKey);
-  const query = "face";
+  const query = "fashion";
   const orientation = "portrait"
 
   const [photos, setPhotos] = useState([]); 

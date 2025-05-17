@@ -94,8 +94,6 @@ useEffect(() => {
 
   return (
     <>
-      <h1>ReferenceIT</h1>
-
       {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
 

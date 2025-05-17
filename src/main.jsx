@@ -8,6 +8,7 @@ import Estudar from './routes/Estudar';
 import Praticar from './routes/Praticar';
 import Tecnicas from './routes/Tecnicas';
 import Comunidade from './routes/Comunidade';
+import Complementos from './routes/Complementos';
 
 const root = document.getElementById("root");
 
@@ -29,6 +30,7 @@ ReactDOM.createRoot(root).render(
           </Route>
 
           <Route path='comunidade' element={<Comunidade/>}/>
+          <Route path='complementos' element={<Complementos/>}/>
         </Route>
 
       </Routes>

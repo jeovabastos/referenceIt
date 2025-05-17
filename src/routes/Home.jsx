@@ -1,28 +1,25 @@
 import { Link } from "react-router";
-import estudarImg from '../assets/ESTUDAR.png'
-import comunidadeImg from '../assets/COMUNIDADE.png'
-import praticarImg from '../assets/PRATICAR.png'
 import './Home.css'
 
 export default function Home() {
     return (
         <>
-            <main className="mainClass">
-                <div className="esquerda">
-                    <Link to={'estudar'} className="estudarImg">
-                        <img className="imagem-container imagem-hover" src={estudarImg} alt="estudar" />
+            <main className="mainTopics">
+                    <Link to={'estudar'} className="category__container">
+                        <h2>ESTUDAR</h2>                        
                     </Link>
 
-                    <Link to={'comunidade'} className="comunidadeImg">
-                        <img className="imagem-container imagem-hover" src={comunidadeImg} alt="estudar" />
+                    <Link to={'praticar'} className="category__container">
+                        <h2>PRATICAR</h2>
                     </Link>
-                </div>
 
-                <div className="direita">
-                    <Link to={'praticar'} className="praticarImg">
-                        <img className="imagem-container imagem-hover" src={praticarImg} alt="estudar" />
+                    <Link to={'complementos'} className="category__container">
+                        <h2>COMPLEMENTOS</h2>
                     </Link>
-                </div>
+
+                    <Link to={'comunidade'} className="category__container">
+                        <h2>COMUNIDADE</h2>
+                    </Link>
             </main>
         </>
     )

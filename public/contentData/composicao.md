@@ -1,0 +1,20 @@
+## Composição É NARRATIVA
+- Escolher uma boa composição é essencial para criar obras bem equilibradas. 
+- Composição é o balanceamento das proporções na tela, criando uma hierarquia visual, uma unidade harmoniosa
+- Observe como vários artistas mais experientes direcionam o olhar do espectador e organizam elementos na tela, eles possuem uma intenção ao escolher cada aspecto da peça
+- Perceba como a pose da personagem, o ângulo, as formas mais aparentes, as cores, absolutamente tudo guia o seu olhar pela peça, de forma intencional
+- Experimente copiar fotos profissionais e outras ilustrações para perceber como certos elementos são destacados enquanto outros ficam mais ocultos, tudo isso é de propósito 
+- Explore composições simétricas, assimétricas e diagonais para descobrir qual funciona melhor para sua intenção na peça que você está fazendo
+- Mas antes de começar a desenhar, considere a mensagem que deseja transmitir com essa ilustração.
+- A composição deve apoiar e reforçar essa mensagem, guiando a atenção de quem vê
+- Talvez você queira dar dimensão do tamanho de algo, escolhendo uma composição que permita comparar o tamanho de duas coisas na tela 
+- Incorpore linhas de direção para guiar o olhar através da composição. 
+- Isso pode ser feito por meio de elementos como estradas, rios, linhas de horizonte ou direções do olhar de personagens.
+- Experimente conscientemente o uso de espaço negativo para criar equilíbrio e direcionar o foco. 
+- Esse espaço é tudo aquilo que não é o elemento principal da imagem, como por exemplo, o plano de fundo em um cenário que tenha um personagem central
+- Às vezes, o que não está desenhado é tão importante quanto o que está.
+- Cores contrastantes podem atrair a atenção, enquanto paletas mais claras podem criar harmonia.
+- Varie o tamanho e a forma dos elementos, observe várias composições principalmente em relação a interação entre grupos
+- Use a ideia do big-shape ou grande forma para destacar um elemento específico em relação aos demais
+- Também há como destacar elementos usando o foco e o desfoco dos planos
+- Resumindo, a composição tem relação com o destaque de algo; usando relações entre tamanhos, formas, distâncias, cores, valores, direções, iluminação, perspectiva, intenção do autor e qualquer outro elemento que possa vir a ser importante, como easter eggs ou piadas internas de uma obra já conhecida

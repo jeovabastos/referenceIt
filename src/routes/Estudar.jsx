@@ -1,21 +1,23 @@
+import { Link } from "react-router";
+
 export default function Estudar(){
     return  (
         <>  
             <h1>Estudar PAGE</h1>
 
-            <div>EMBEEDED OU LINK: VIDEO DO YOUTUBE</div>
-            
             <h2>Sumário</h2>            
             <ul>
-                {/* abaixo, o texto do video */}
-                <li><a href="#">O que estudar</a></li>
-                <li><a href="#">Como estudar</a></li>
-                <li><a href="#">Fundamentos</a></li>
+                <li><Link to={"comoestudar"}>Como estudar</Link></li>
+                <li><Link to={"linhas"}>Fundamento 1: Linhas</Link></li>
+                <li><Link to={"formas"}>Fundamento 2: Formas</Link></li>
+                <li><Link to={"perspectivas"}>Fundamento 3: Perspectivas</Link></li>
+                <li><Link to={"valores"}>Fundamento 4: Valores</Link></li>
+                <li><Link to={"cores"}>Fundamento 5: Cores</Link></li>
+                <li><Link to={"composicoes"}>Fundamento 6: Composições</Link></li>
+                <li><Link to={"anatomia"}>Anatomia</Link></li>
+                <li><Link to={"criatividade"}>Criatividade</Link></li>
+                <li><Link to={"tecnicas"}>Técnicas</Link></li>
             </ul>
-
-            <h2>O que estudar</h2>
-            <h2>Como estudar</h2>
-            <h2>Fundamentos</h2>
         </>
     )
 }

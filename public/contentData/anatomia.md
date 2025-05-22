@@ -1,0 +1,23 @@
+## Sobre anatomia e estilos de ilustração
+- Anatomia em ilustração é a aplicação do fundamento de formas e proporções com a observação das estruturas dos seres vivos 
+- Entender a anatomia não só de humanos mas de qualquer criatura é importante para representar figuras; não necessariamente realistas mas convincentes
+- Para praticar o estudo de anatomia é necessário realizar um estudo de observação; reúna suas referências (de preferência fotos) e desestruture elas
+- Então, reconstrua elas se atentando principalmente as formas e proporções de cada parte
+- Faça uma revisões pontuais de cada parte e refaça essas partes caso seja necessário
+- Pratique com diferentes criaturas, humanos ou animais e em diferentes perspectivas para aprimorar a sua percepção sobre como as formas mudam, ao mesmo tempo em que ainda identificam cada parte do corpo
+- Mesmo o mais estilizado dos cartoons utiliza de conhecimentos de anatomia para moldar a realidade de acordo com a vontade do autor
+- Pode ver que certos personagens como da turma da mônica ou one piece não seguem regras claras de construção anatômica, com várias partes exageradas
+- Porém esse exagero é proposital e funciona em cada uma dessas obras como um todo
+- Eles não estão entre aspas anatomicamente errados porque o autor não sabe anatomia humana, eles estão assim porque o autor possui uma intenção clara a passar para quem vê
+- Ao bater o olho em determinados personagens você sabe na hora quem é mais perigoso ou mais calmo, mais forte ou mais fraco, isso é criado com o exagero das formas e do profundo conhecimento de anatomia
+- Essas variações de estilos na anatomia podem ser observadas no triângulo pictográfico da obra “Understanding Comics” de Scott McCloud
+- Nessa obra, qualquer figura pode variar em uma escala entre uma cópia da realidade e uma abstração dos principais elementos da figura, se aproximando dos principais elementos pictográficos como círculos, quadrados e triângulos
+- Quanto mais próximo da realidade, mais vai importar o sentido literal e específica vai ser a mensagem que a peça demonstra passar
+- Já quanto mais abstrato, mais universal vai ser o sentido, a mensagem da obra
+- Para praticar, obtenha referências principalmente a partir de fotos e da observação do dia a dia 
+- Você também pode tentar uma abordagem diferente do desenho em si, como por exemplo o uso de modelagem em argila para ter uma compreensão tátil das formas que podem ajudar na visualização tridimensional das estruturas que você está tentando entender.
+- O mesmo vale para softwares 3d como o Blender
+- O importante é não ficar preso a apenas uma abordagem e experimentar jeitos diferentes de aprender
+- E de novo, o que eu disse é tendência
+- Nada te impede de usar um traço mais realista e ao mesmo tempo passar conceitos mais abstratos
+- A escolha do entre aspas estilo é algo consciente de cada autor ou ilustrador, de acordo com o que para ele mais se encaixa com aquilo que ele quer passar

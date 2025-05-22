@@ -1,0 +1,22 @@
+## Cor
+- Ao estudar cores você tem que entender que diferentes culturas atribuem diferentes significados para as mesmas cores e que cada cor transmite uma mensagem.
+- Pegue uma imagem de referência e comece a escolher cores de acordo com o que você acredita que mais se aproxima do que está observando, após finalizar a ilustração, use a ferramenta de conta gotas como um gabarito e verifique o quão próximo ou o quão distante das cores originais foram as suas escolhas
+- Esse método vai te ajudar a melhorar a sua percepção
+- Utilize o círculo cromático para explorar relações entre as cores. Experimente criar paletas utilizando diferentes partes do círculo para entender combinações harmoniosas.
+- As harmonias mais comuns são as cores análogas e as complementares
+- As cores análogas ficam próximas entre si no círculo cromático, como o azul, verde e amarelo
+- Já as cores complementares são opostas entre si, criando um bom contraste entre elas
+- Há muitos tipos de pinturas; como os que usam poucas ou muitas cores
+- Nenhuma é objetivamente melhor que a outra, cada uma tem uma aplicação apropriada ao momento e lugar em que estão
+- Há pinturas com tons mais pastéis que ficam incríveis, que saltam aos olhos do espectador
+- Há também pinturas super coloridas porém que ofuscam o entendimento da peça, dificultando a leitura da obra
+- O contrário também é verdade, então você me pergunta, como saber se o que estou fazendo está equilibrado o bastante? Ou como saber se está faltando tons mais claros ou escuros?
+- A resposta infelizmente é um grande depende; depende do tipo de peça que está fazendo, dos materiais que está usando e dos efeitos que está tentando mimetizar
+- Há técnicas como outline, que destacam uma personagem através da luz diretamente sobre o contorno da personagem e assim por diante
+- Há aqueles também que desfocam o plano de fundo, dando ênfase ao objeto central da peça
+- Há ainda como guiar o olhar de quem vê a peça pelos seus elementos, através de técnicas de composição e cores apropriadas,  criando um fluxo com as cores da própria obra
+- Explore como diferentes cores influenciam emoções e percepções. 
+- Compreender a psicologia das cores ajudará a transmitir mensagens específicas em suas ilustrações.
+- Cores mais frias passam sensações de distância ou solidão, confiança ou calmaria
+- Já as cores mais quentes passam sensações de ação, energia, violência ou descontração
+- Muitos personagens de shonens ou hqs ocidentais usam combinações como azul e vermelho, unindo os significados dessas cores em um só personagem, como alguém confiável e forte enquanto vilões geralmente possuem cores mais frias

@@ -1,0 +1,19 @@
+## Perspectiva
+- A perspectiva tem dois sentidos aqui, o literal e o metafórico
+- O literal é mais fácil e rápido de entender, já que é o ponto de vista do espectador
+- Já o metafórico diz respeito ao que o autor quer passar para você, o que ele quis dizer para quem está vendo a partir daquele ângulo
+- Estudar e praticar perspectiva é fundamental para criar ilustrações que transmitam profundidade e veracidade.
+- Destacar algo com a perspectiva é algo que ainda estou longe de dominar mas vou falar daquilo que entendi até o momento
+- Perspectiva é sobre o ponto de vista do observador
+- Observadores diferentes terão pontos de vista diferentes e portanto, visões diferentes sobre uma mesma coisa
+- Por exemplo, um campo aberto será visto de formas completamente diferentes por uma águia no alto dos céus, por um humano em terra e por um inseto mais próximo ao chão
+- E o quanto cada um consegue ver também muda de acordo com o campo de visão, que é o ângulo que cada um vê, uma águia por exemplo enxerga muito mais distante que um humano e assim por diante
+- Ao olhar para longe vemos o horizonte, a linha invisível que separa céu e terra, essa é a linha do horizonte
+- Ela é contínua mesmo se obstruída por objetos, prédios ou montanhas
+- A altura do observador determina o nível do olho em que ele - o observador - irá ver a linha do horizonte
+- Já o ponto de fuga é para onde as linhas de um objeto estão apontadas até atingir o horizonte
+- Se o objeto que estiver imediatamente a frente do observador possuir em grande parte apenas uma de suas faces apontada para o observador, as linhas do objeto serão projetadas para um único ponto no horizonte
+- Já se for possível visualizar mais faces desse objeto, o observador irá perceber mais pontos de fuga em direção ao horizonte
+- Pratique desenhos de observação de ambientes e objetos ao seu redor, prestando atenção especial às relações de tamanho e distância.
+	- Trace linhas por cima de fotos e verá para onde estão apontados os pontos de fuga de cada objeto presente na imagem em direção ao horizonte
+	- Faça isso com objetos em diferentes ângulos para perceber como as linhas mudam de direção em cada momento

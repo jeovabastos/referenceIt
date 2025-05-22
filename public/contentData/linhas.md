@@ -1,0 +1,17 @@
+## Linha e habilidades básicas
+- A primeira habilidade básica já foi explicada, que é a observação por meio das referências
+- Treinar o olhar vai ser provavelmente a parte mais demorada ao começar a aprender a ilustrar
+- Já a segunda habilidade básica é a sua coordenação motora
+- Para realizar os movimentos corretos é necessário treinar algumas coisas como peso de linha, velocidade e direção do movimento
+- O peso de linha vai permitir realizar diferentes efeitos tanto de luz quanto de texturas, além da própria sensação de algo mais leve ou mais pesado
+- A velocidade vai definir muito da precisão do seu traço; no começo, treine com traços mais rápidos e suaves
+- Como nesse início não sabemos nada sobre como desenhar, a tendência é segurar firme no lápis ou caneta e pressionar o mais forte possível no papel ou na mesa digitalizadora
+- Mas isso não produz bons resultados sem que haja um bom controle do movimento; por isso, foque em fazer traços rápidos e principalmente suaves, aumentando cada vez mais a precisão do seu traço
+- Quanto maior for a precisão do seu traço, mais você vai poder variar a pressão e a velocidade, criando diferentes efeitos e texturas
+- Um bom treino para isso é a criação de hachuras, que são traços paralelos ou que se cruzam, com maior ou menor espaçamento entre eles, definindo diferentes efeitos, embora geralmente sejam usados como sombras
+- Foque em fazer uma linha completa por vez, nada de ficar riscando uma por cima da outra na tentativa de melhorar algo que não está bom
+- Se ficou ruim, apague e tente de novo
+- Uma outra coisa importante de se comentar é que você deve usar todo o seu braço para desenhar, não apenas a mão e os dedos
+- A sua amplitude de movimento vai ser muito maior ao usar o braço inteiro
+- E isso também ajuda a evitar dores que podem surgir por ficar horas repetindo movimentos
+- Caso você esteja usando uma mesa digitalizadora, desabilite as opções de suavização de movimento ou linha no software de desenho

@@ -5,7 +5,8 @@ import { createClient } from 'pexels';
 function Slider() {
   const apiKey = import.meta.env.VITE_API_KEY;
   const client = createClient(apiKey);
-  const query = "fashion";
+  // const query = "fashion"; //fazer um state com botoes de categorias na renderização
+  const [query, setQuery] = useState("fashion")
   const orientation = "portrait"
 
   const [photos, setPhotos] = useState([]); 
@@ -94,6 +95,20 @@ useEffect(() => {
 
   return (
     <>
+      <h2>prática de cópia</h2>
+      <p>Use dynamic sketching para masterizar o traço fluído em seu desenho com uma das categorias abaixo!</p>
+
+      <div>
+        <ul>
+          <li>
+            <button onClick={()=>{setQuery("man")}}>Figura Humana Masculina</button>
+            <button onClick={()=>{setQuery("woman")}}>Figura Humana Feminina</button>
+            <button onClick={()=>{setQuery("room")}}>Cenário interno</button>
+            <button onClick={()=>{setQuery("landscape")}}>Cenário externo</button>
+          </li>
+        </ul>
+      </div>
+      
       {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
 

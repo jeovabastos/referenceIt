@@ -7,18 +7,25 @@ export default function Praticar(){
 
             <main>
                 <section>
+                    <h2>prática de cópia</h2>
+                    <p>Use dynamic sketching para masterizar o traço fluído em seu desenho com uma das categorias abaixo!</p>
+
                     {/* IMPLEMENTAR CADA CATEGORIA NA ROTA DO SLIDER */}
                     <div>
-                        <Link to={"slider"}><img src="" alt="Figura humana"/></Link>
+                        <Link to={"slider"}><img src="" alt="figura humana"/></Link>
+                    </div>
+                    
+                    <div>
+                        <Link to={"slider"}><img src="" alt="figura animal"/></Link>
                     </div>
 
                     <div>
-                        <img src="" alt="Figura animal"/>
-                    </div>                    
+                        <Link to={"slider"}><img src="" alt="cenários internos"/></Link>
+                    </div>
 
                     <div>
-                        <img src="" alt="Cenários"/>
-                    </div>                    
+                        <Link to={"slider"}><img src="" alt="cenários externos"/></Link>
+                    </div>
                 </section>
             </main>
         </>

@@ -1,0 +1,15 @@
+## Forma e proporção
+- A forma desempenha um papel fundamental na representação, pois é um dos elementos visuais mais básicos e perceptíveis em uma ilustração. 
+- Ela permite a identificação e o reconhecimento de objetos e outros elementos, é a base para interpretar o que estamos vendo
+- As formas permitem a comunicação de ideias, sentimentos e narrativas
+- Elas podem transmitir mensagens específicas e criar uma conexão emocional, por exemplo, formas mais retas e que formam pontas podem ser associadas com perigo ou rigidez enquanto formas mais arredondadas e suaves passam uma sensação mais pacífica
+- Também permite a diferenciação e variedade que podem destacar elementos importantes e criar ritmo na composição e narrativa de uma peça
+- As formas também possuem, através de símbolos, uma infinidade de significados associados a culturas de cada lugar e, ao escolher trabalhar com certas formas você consigue transmitir parte de uma ou mais culturas através da ilustração, como exemplo, os mangás
+- Com a forma você define a primeira impressão, seja de um personagem, um lugar ou qualquer outra coisa
+- Ao analisar vários personagens você começará a notar um padrão neles
+- As proporções possuem um papel similar ao das formas
+- Quanto mais a proporção do que você criar for próximo da realidade mais vai importar o ato em si da personagem ou o sentido literal do objeto ou lugar que você ilustrou
+	- Como exemplo, temos as Graphic Novels do Batman que em uma cidade violenta e com poucas esperanças surge para combater o crime usando seus recursos e treinamento
+- Já quanto mais estilizadas forem as proporções mais vão importar os sentidos que você quer passar para o leitor, a ideia abstrata
+	- Geralmente se usa cartoons para isso como a turma da Mônica, ou mangás shonen, porém nada do que eu falei é uma regra escrita em pedra, é apenas um padrão por repetição que encontramos em diferentes lugares e em diferentes estilos artísticos
+- Um estudo simples que você pode fazer é tentar copiar a silhueta de uma referência, observando as formas que se destacam a partir dela

@@ -1,0 +1,16 @@
+## Valor
+- Valor é o que dá a sensação de tridimensionalidade na ilustração
+- É a relação entre luz e sombra projetados em um objeto
+- E a forma como tanto a luz quanto a sombra são projetadas variam; elas variam conforme a distância da fonte de luz e do tipo de material em que elas incidem
+- Pratique desenhos em escala de cinza para desenvolver a habilidade de representar diferentes valores, também chamados de tons de uma cor
+- Comece com uma escala simples e, gradualmente, trabalhe com variações mais sutis.
+- Observe como a luz interage com os objetos a sua volta
+- Dependendo da direção e intensidade que a luz incide sobre o objeto, ela pode provocar sombras mais sólidas ou mais opacas; também chamadas de soft-edges e hard-edges
+- Observe bem as referências fotográficas, isso ajuda a compreender como a luz varia em cada condição
+- Experimente desenhar diferentes materiais, como metal, vidro e tecido, para entender como os valores se comportam em superfícies distintas, e também entendendo como essas texturas se comportam sobre diferentes tipos de luz, seja a luz do Sol, de uma fogueira ou uma lanterna
+- Pratique técnicas de hachura para criar sombras e texturas. Varie a direção e a densidade das linhas para obter diferentes efeitos.
+- Uma boa leitura e que faz um excelente uso de alto-contraste é A menina do outro lado, de Nagabe
+- Essa obra possui uma arte peculiar e que em grande parte usa tons bem mais escuros
+- A escala de cinzas que citei antes consiste em criar uma peça colorida a partir da escala de tons que variam de totalmente branco até o totalmente preto
+- Aplicando uma máscara de tons de uma ou mais cores por cima; essa máscara é algo presente em muitos softwares de ilustração e que te permite visualizar rapidamente se o que você está desenhando possui um bom contraste ou não
+- O inverso também é possível na maioria dos softwares, pegar uma ilustração colorida e diminuir a saturação para o zero, deixando a imagem apenas em tons de cinza; isso te ajuda a visualizar como está o contraste sem se preocupar com a escolha das cores

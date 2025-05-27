@@ -1,3 +1,5 @@
+import './index.css'
+
 // config
 import { StrictMode } from 'react';
 import ReactDOM from "react-dom/client";
@@ -7,6 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import App from "./App";
 import Home from './routes/Home';
 import Estudar from './routes/Estudar';
+
 // import Praticar from './routes/Praticar';
 import Comunidade from './routes/Comunidade';
 import Complementos from './routes/Complementos';

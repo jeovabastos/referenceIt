@@ -4,6 +4,7 @@ header{
     align-items: center;
     margin: auto;
     width: 80%;
+    margin: 0;
 }
 
 header a{

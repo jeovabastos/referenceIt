@@ -11,6 +11,10 @@ export default function Complementos(){
                 <li><Link to={""}>Links úteis</Link></li>
                 <li><Link to={""}>Projetos</Link></li>
             </ul>
+
+            <footer>
+                <img src="/assets/alert.png"/>
+            </footer>            
         </>
     )
 }

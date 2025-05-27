@@ -3,9 +3,8 @@ import { Link } from "react-router";
 export default function Estudar(){
     return  (
         <>  
-            <h1>Estudar PAGE</h1>
+            <h1>Estudar</h1>
 
-            <h2>Sumário</h2>            
             <ul>
                 <li><Link to={"comoestudar"}>Como estudar</Link></li>
                 <li><Link to={"linhas"}>Fundamento 1: Linhas</Link></li>

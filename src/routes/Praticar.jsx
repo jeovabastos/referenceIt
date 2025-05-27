@@ -3,7 +3,7 @@ import { Link } from "react-router";
 export default function Praticar(){
     return (
         <>
-            <h1>Praticar PAGE</h1>
+            <h1>Praticar</h1>
 
             <main>
                 <section>

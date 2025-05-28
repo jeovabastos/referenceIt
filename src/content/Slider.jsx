@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import '../App.css';
+import './Slider.css'
 import { createClient } from 'pexels';
 
 function Slider() {
   const apiKey = import.meta.env.VITE_API_KEY;
   const client = createClient(apiKey);
-  // const query = "fashion"; //fazer um state com botoes de categorias na renderização
   const [query, setQuery] = useState("fashion")
   const orientation = "portrait"
 
@@ -95,42 +95,52 @@ useEffect(() => {
 
   return (
     <>
-      <h2>prática de cópia</h2>
-      <p>Use dynamic sketching para masterizar o traço fluído em seu desenho com uma das categorias abaixo!</p>
+      <h1>prática de cópia</h1>
 
-      <div>
-        <ul>
-          <li>
-            <button onClick={()=>{setQuery("man")}}>Figura Humana Masculina</button>
-            <button onClick={()=>{setQuery("woman")}}>Figura Humana Feminina</button>
-            <button onClick={()=>{setQuery("room")}}>Cenário interno</button>
-            <button onClick={()=>{setQuery("landscape")}}>Cenário externo</button>
-          </li>
-        </ul>
+      {/* SLIDER */}
+      <div className='slider'>
+        {/* LADO ESQUERDO */}
+        <div className='slider__container'>
+          <p>Use dynamic sketching para masterizar o traço fluído em seu desenho com uma das categorias abaixo!</p>
+
+          {/* CATEGORIAS */}
+          <div>
+            <ul>
+              <li>
+                <button onClick={()=>{setQuery("man")}}>Figura Humana Masculina</button>
+                <button onClick={()=>{setQuery("woman")}}>Figura Humana Feminina</button>
+                <button onClick={()=>{setQuery("room")}}>Cenário interno</button>
+                <button onClick={()=>{setQuery("landscape")}}>Cenário externo</button>
+              </li>
+            </ul>
+          </div>
+          
+          {/* ESTADOS */}
+          {loading && <p>Loading...</p>}
+          {error && <p>{error}</p>}
+          {endSession && (<div>Fim da sessão! Gostaria de iniciar outra? Clique em NEXT SESSION abaixo :P</div>)}
+
+          <button onClick={()=>{setStart(true)}}>START</button>
+          <button onClick={()=>{setStart(false)}}>PAUSE</button>
+
+          <button onClick={prevImage}>PREV IMAGE</button>
+          <button onClick={nextImage}>NEXT IMAGE</button>
+
+          <div>Page: {nextPage}</div>
+          <div>CurrentIndex: {currentIndex}</div>
+
+          {!endSession && <div>Segundos restantes: {secondsRemaining}</div>}
+
+          {endSession && (<button onClick={nextSession}>NEXT SESSION</button>)}
+        </div>
+
+        {/* LADO DIREITO */}
+        <div className='slider__container'>
+          {photos.length > 0 && endSession === false && (
+            <img src={photos[currentIndex].src.large2x} alt="Fetched from Pexels" className='slider__img'/>
+          )}
+        </div>
       </div>
-      
-      {loading && <p>Loading...</p>}
-      {error && <p>{error}</p>}
-
-      {photos.length > 0 && endSession === false && (
-        <img src={photos[currentIndex].src.medium} alt="Fetched from Pexels" />
-      )}
-
-      {endSession && (<div>Fim da sessão! Gostaria de iniciar outra? Clique em NEXT SESSION abaixo :P</div>)}
-
-      <button onClick={()=>{setStart(true)}}>START</button>
-      <button onClick={()=>{setStart(false)}}>PAUSE</button>
-
-      <button onClick={prevImage}>PREV IMAGE</button>
-      <button onClick={nextImage}>NEXT IMAGE</button>
-
-      <div>Page: {nextPage}</div>
-      <div>CurrentIndex: {currentIndex}</div>
-
-      {!endSession && <div>Segundos restantes: {secondsRemaining}</div>}
-
-      {endSession && (<button onClick={nextSession}>NEXT SESSION</button>)}
-
     </>
   );
 }

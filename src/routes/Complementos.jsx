@@ -3,8 +3,6 @@ import { Link } from "react-router";
 export default function Complementos(){
     return(
         <>
-            <h1>Complementos</h1>
-
             <ul>
                 <li><Link to={""}>Exercícios</Link></li>
                 <li><Link to={""}>Materiais</Link></li>

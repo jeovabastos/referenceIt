@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
-import '../App.css';
+// import '../App.css';
 import './Slider.css'
 import { createClient } from 'pexels';
+const apiKey = import.meta.env.VITE_API_KEY;
+const client = createClient(apiKey);
 
 function Slider() {
-  const apiKey = import.meta.env.VITE_API_KEY;
-  const client = createClient(apiKey);
-  const [query, setQuery] = useState("fashion")
+  const [query, setQuery] = useState("cosplay")
   const orientation = "portrait"
 
   const [photos, setPhotos] = useState([]); 
@@ -40,7 +40,7 @@ function Slider() {
     };
 
     fetchPhotos();
-  }, [client, query]);
+  }, [query, page]);
 
   const nextImage = () => {
     if (photos.length > 0 && currentIndex < photos.length - 1) {
@@ -95,16 +95,16 @@ useEffect(() => {
 
   return (
     <>
-      <h1>prática de cópia</h1>
 
       {/* SLIDER */}
       <div className='slider'>
         {/* LADO ESQUERDO */}
-        <div className='slider__container'>
+        
+        <div className='slider__container left'>
           <p>Use dynamic sketching para masterizar o traço fluído em seu desenho com uma das categorias abaixo!</p>
 
           {/* CATEGORIAS */}
-          <div>
+          <div className='slider__categorias'>
             <ul>
               <li>
                 <button onClick={()=>{setQuery("man")}}>Figura Humana Masculina</button>
@@ -120,16 +120,21 @@ useEffect(() => {
           {error && <p>{error}</p>}
           {endSession && (<div>Fim da sessão! Gostaria de iniciar outra? Clique em NEXT SESSION abaixo :P</div>)}
 
-          <button onClick={()=>{setStart(true)}}>START</button>
-          <button onClick={()=>{setStart(false)}}>PAUSE</button>
+          {/* action buttons */}
+          <div className='actionButtons'>
+            <button onClick={()=>{setStart(true)}}>START</button>
+            <button onClick={()=>{setStart(false)}}>PAUSE</button>
 
-          <button onClick={prevImage}>PREV IMAGE</button>
-          <button onClick={nextImage}>NEXT IMAGE</button>
+            <button onClick={prevImage}>PREV IMAGE</button>
+            <button onClick={nextImage}>NEXT IMAGE</button>
+          </div>
 
-          <div>Page: {nextPage}</div>
-          <div>CurrentIndex: {currentIndex}</div>
-
-          {!endSession && <div>Segundos restantes: {secondsRemaining}</div>}
+          {/* informações */}
+          <div className='sliderInfo'>
+            <div>Page: {nextPage}</div>
+            <div>CurrentIndex: {currentIndex}</div>
+            {!endSession && <div>Segundos restantes: {secondsRemaining}</div>}
+          </div>
 
           {endSession && (<button onClick={nextSession}>NEXT SESSION</button>)}
         </div>

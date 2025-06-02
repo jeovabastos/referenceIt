@@ -1,10 +1,40 @@
 .slider{
     /* background-color: red; */
     display: flex;
-    height: 75vh;
+    height: calc(100vh - 5rem); /* esses 4rem são a altura do header*/
+}
+
+.left{
+    display: flex;
+    gap: 1rem;
+}
+
+.slider__categorias > ul > li{
+    display: flex;
+    flex: 1;
+    gap: 0.5rem;
+}
+
+.slider__categorias > ul > li > button{
+    padding: 0.2rem;
+    width: 100%;
+    font-family: "Comic Neue", cursive;
+}
+
+.actionButtons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.actionButtons > button{
+    /* display: block; */
+    padding: 0.5rem;
+    width: 50%;
+    font-family: "Comic Neue", cursive;
 }
 
 .slider__container{
+    flex-direction: column;
     width: 50%;
 }
 

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 // import '../App.css';
 import './Slider.css'
 import { createClient } from 'pexels';
@@ -8,19 +8,19 @@ const client = createClient(apiKey);
 function Slider() {
   const [query, setQuery] = useState("cosplay")
   const orientation = "portrait"
-
   const [photos, setPhotos] = useState([]); 
   const [currentIndex, setCurrentIndex] = useState(0); 
   const [loading, setLoading] = useState(true); 
   const [error, setError] = useState(null);
-
   const [start, setStart] = useState(false)
   const [nextPage, setNextPage] = useState(1)
   const page = nextPage
-
   const [endSession, setEndSession] = useState(false)
-
   const [secondsRemaining, setSecondsRemaining] = useState(0)
+
+  const inputRef = useRef("")
+
+  // input para o usuario
 
   useEffect(() => {
     const fetchPhotos = async () => {
@@ -93,6 +93,12 @@ useEffect(() => {
   return () => clearInterval(intervalId); // Limpa o intervalo ao desmontar ou mudar as dependências
 }, [start, currentIndex]);
 
+  function handleInputRef(){
+    setQuery(inputRef.current.value)
+
+    inputRef.current.value = ''
+  }
+
   return (
     <>
 
@@ -102,6 +108,8 @@ useEffect(() => {
         
         <div className='slider__container left'>
           <p>Use dynamic sketching para masterizar o traço fluído em seu desenho com uma das categorias abaixo!</p>
+
+          {/* input para o usuario */}
 
           {/* CATEGORIAS */}
           <div className='slider__categorias'>
@@ -119,6 +127,12 @@ useEffect(() => {
           {loading && <p>Loading...</p>}
           {error && <p>{error}</p>}
           {endSession && (<div>Fim da sessão! Gostaria de iniciar outra? Clique em NEXT SESSION abaixo :P</div>)}
+
+          <div className='inputSearch'>
+            <p>Ou pesquise aqui algo do seu interesse</p>
+            <input type='text' ref={inputRef} placeholder='tema de interesse'/>
+            <button onClick={()=>handleInputRef()}>PESQUISAR</button>
+          </div>
 
           {/* action buttons */}
           <div className='actionButtons'>

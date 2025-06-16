@@ -33,6 +33,16 @@
     font-family: "Comic Neue", cursive;
 }
 
+.inputSearch{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.inputSearch > input, button{
+    padding: .5rem;
+}
+
 .slider__container{
     flex-direction: column;
     width: 50%;
